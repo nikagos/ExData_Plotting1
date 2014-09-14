@@ -25,6 +25,7 @@ plot(d2$DateTime, d2$Sub_metering_1, pch=NA, xlab="", ylab="Energy sub metering"
 
 lines(d2$DateTime, d2$Sub_metering_1)
 lines(d2$DateTime, d2$Sub_metering_2, col="red")
+##lines(d2$DateTime, d2$Sub_metering_3, col="blue")
 lines(d2$DateTime, d2$Sub_metering_3, col="blue")
 
 line_names  <- c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
